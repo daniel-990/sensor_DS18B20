@@ -1,6 +1,6 @@
 #include <OneWire.h>                 //Se importan las librerías
 #include <DallasTemperature.h>
-#define Pin D4                       //Se declara el pin donde se conectará la DATA
+#define Pin D4                       //Se declara el pin donde se conectará la DATA ( en arduino uno el pin 9 )
 OneWire ourWire(Pin);                //Se establece el pin declarado como bus para la comunicación OneWire
 DallasTemperature sensors(&ourWire); //Se llama a la librería DallasTemperature
 
